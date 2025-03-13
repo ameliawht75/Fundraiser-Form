@@ -1,0 +1,17 @@
+{
+  "name": "fundraiser-teams",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "chai": "^5.2.0",
+    "jquery": "^3.7.1",
+    "mocha": "^11.1.0"
+  }
+}

@@ -1,0 +1,13 @@
+.header {
+    padding: 50px;
+    text-align: center;
+    background: #4cbb17;
+    color: black;
+    font-size: 25px;
+}
+
+.teams, .about, .sign-up {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
