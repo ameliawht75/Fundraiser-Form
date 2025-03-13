@@ -11,3 +11,13 @@
     font-size: 20px;
     color: black;
 }
+
+.form-container {
+    display: grid;
+    place-items: center;
+    min-height: 50vh;
+  }
+  
+  form {
+    width: 50%;
+  }

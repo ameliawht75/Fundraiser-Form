@@ -14,10 +14,12 @@ A Bootstrap styled form that allows a user to add a new row to the table when cl
         <div class="header">
             <h1>Athletic Golf Scramble</h1>
         </div>
+        <br>
         <p class="about">We will be hosting a golf scramble to raise money to build a new pressbox for the high school football field on May 29, 2025.<br>
             We would like to include you.  If you would like to sign-up plese enter the name of your team and its members below.</p>
         <p class="teams">The following teams have already signed-up:</p>
-        <table class="table table-sm">
+        <div class="container">
+        <table class="table table-sm" id="table1">
             <thead id="iHead">
               <tr>
                 <th scope="col"></th>
@@ -47,23 +49,30 @@ A Bootstrap styled form that allows a user to add a new row to the table when cl
               </tr>
             </tbody>
           </table>
+        </div>
+        <br>
+        <hr class="hr">
         <p class="sign-up">Don't see your team? You can add your team below.</p>
+        <div class="form-container">
           <form>
             <div>
                 <label for="teamName" class="form-label">Team Name</label>
                 <input type="text" class="form-control" id="teamName">
             </div>
+            <br>
             <div>
                 <label for="teamCaptain" class="form-label">Captain</label>
                 <input type="text" class="form-control" id="teamCaptain">
             </div>
+            <br>
             <div>
                 <label for="teamColors" class="form-label">Team Color(s)</label>
                 <input type="text" class="form-control" id="teamColors">
             </div>
+            <br>
             <button type="submit" class="btn btn-primary" id="formSubmit">Submit</button>
           </form>
-
+        </div>
           <script src="script.js"></script>
     </body>
 </html>
